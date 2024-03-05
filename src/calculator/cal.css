@@ -1,0 +1,79 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.calculator {
+  width: 300px;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 7rem;
+  box-shadow:0 25px 45px rgba(0, 0, 0, .2) ;
+  background: rgba(255, 255, 255, .1);
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(10px);
+  
+
+
+}
+
+.display {
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+ 
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.clearButton {
+  width: 100%;
+  margin-top: 5px;
+  background-color: #ff6666;
+  color: white;
+}
+
+.clearButton:hover {
+  background-color: #ff4d4d;
+}
+#input{
+  height: 30px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+body{
+  
+
+background:url('https://wallpapers.com/images/hd/black-color-background-q8eojwlseqvv4a27.jpg');
+background-size: cover;
+
+}
